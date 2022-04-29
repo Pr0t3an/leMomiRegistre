@@ -1,0 +1,8 @@
+attrs
+colorama
+construct
+inflection
+pyfiglet
+python-magic
+pytz
+regipy
