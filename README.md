@@ -1,8 +1,5 @@
-# leMomiRegistre
-Cross platform bulk registry log file parser. Copies All repaired and intact reg hives to new dir. For further processing. Leverages regipy which does all the work (was originally using a different library which required alot of the code, which is largely superflous with regipy --> check it out https://github.com/mkorman90/regipy some awesome work by Contributors)
 
-
-Le Momi Registre - takes an input directory, seeks out registry files and corresponding log files, uses regipy to repair the hives, and copies both all repaired and those not needing repair to a new directory for further processing.
+Le Pearl Registre - takes an input directory, seeks out registry files and corresponding log files, uses regipy to repair the hives, and copies both all repaired and those not needing repair to a new directory for further processing.
 
 Basic Usage
 -------------------
@@ -12,10 +9,9 @@ Basic Usage
 3) show help
 ```
 python3 leregistre.py -h        
-_    ____    _  _ ____ _  _ _    ____ ____ ____ _ ____ ___ ____ ____ 
-|    |___    |\/| |  | |\/| |    |__/ |___ | __ | [__   |  |__/ |___ 
-|___ |___    |  | |__| |  | |    |  \ |___ |__] | ___]  |  |  \ |___ 
-                                                                     
+_    ____    ___  ____ ____ ____ _       ____ ____ ____ _ ____ ___ ____ ____ 
+|    |___    |__] |___ |__| |__/ |       |__/ |___ | __ | [__   |  |__/ |___ 
+|___ |___    |    |___ |  | |  \ |___    |  \ |___ |__] | ___]  |  |  \ |___ 
 
 usage: leregistre.py [-h] [-l] -i INPUT -o OUTPUT_FILE [-d]
 
