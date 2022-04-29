@@ -185,7 +185,7 @@ def dumpallkeys(dst):
 
 # App Setup Stuff below =============
 def compulsary_ascii():
-    ascii_banner = pyfiglet.figlet_format("Le Momi Registre", font="cybermedium")
+    ascii_banner = pyfiglet.figlet_format("Le Pearl Registre", font="cybermedium")
     print(Fore.YELLOW + ascii_banner + Style.RESET_ALL)
 
 if __name__ == '__main__':
