@@ -6,4 +6,4 @@ pyfiglet
 python-magic
 pytz
 regipy
-magic
+libmagic
